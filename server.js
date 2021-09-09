@@ -111,7 +111,7 @@ function insertdata(sql, parameter) {
 function deletedata(sql, parameter) {
    connection.query(sql, parameter, (err, results) => {
      if (err) throw err;
-     console.table(chalk.green(`\nDelete successfully\n`));
+     console.table(chalk.yellow(`\nDelete successfully\n`));
   })
 };
 
@@ -299,7 +299,7 @@ function viewbudgetbydepartment() {
     .then((answer) => {
       getdata(`select c.name as department, sum( b.salary) as budget from employee a left join role b on a.role_id=b.id left join department c on b.department_id=c.id where c.name = "${answer.department}" group by c.name`)
         .then(results => {
-          displaydata(`View Employee by Department: ${answer.department}`, results);
+          displaydata(`View Budget by Department: ${answer.department}`, results);
           mainchoice();
         }
         );
