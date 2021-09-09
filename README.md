@@ -1,5 +1,5 @@
 [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
-# # employee-tracker
+# Employee Tracker
 ## Description
 Employee Tracker is a Node.js command-line application using inquirer, chalk, console.table, figlet and mysql to manage employee database. 
 
