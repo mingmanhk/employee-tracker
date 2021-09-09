@@ -38,7 +38,7 @@ Repository:
    2. Run 'npm start'
    3. Select option all questions
    
-   <img src="./src/usage.gif"/>
+   <img src="./src/usage_latest.gif"/>
    
 ## Credits
 Victor Lam
