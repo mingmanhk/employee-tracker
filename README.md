@@ -58,6 +58,7 @@ This application provided following functionality:
     * Add department
 
 Bonus: 
+
     * Update employee managers.
     * View employees by manager.
     * View employees by department.
@@ -65,6 +66,7 @@ Bonus:
     * View the total utilized budget of a department—in other words, the combined salaries of all employees in that department.
 
 Additional feature:
+
     * Using Async to queries sql data
 
 ## Contribute
